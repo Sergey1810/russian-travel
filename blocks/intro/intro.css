@@ -1,0 +1,39 @@
+.intro{
+  display: flex;
+  flex-direction: column;
+  margin: 0 148px;
+  color: #ffffff;
+}
+
+
+@media screen and (max-width:1024px){
+  .intro{
+    display: flex;
+    flex-direction: column;
+    margin: 0 48px;
+    color: #ffffff;
+    max-width: calc(100% - 96px);
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .intro{
+    display: flex;
+    flex-direction: column;
+    margin: 0 24px;
+    color: #ffffff;
+    max-width: calc(100% - 48px);
+  }
+}
+
+
+@media screen and (max-width:320px){
+  .intro{
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+    color: #ffffff;
+    max-width: calc(100% - 32px);
+  }
+}

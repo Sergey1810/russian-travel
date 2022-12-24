@@ -1,0 +1,31 @@
+.place__column{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.place__column:not(:first-child){
+  margin-top: 48px;
+}
+
+@media screen and (max-width:1024px){
+  .place__column{
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .place__column{
+    gap: 28px;
+  }
+}
+
+@media screen and (max-width:640px){
+  .place__column{
+    grid-template-columns: 1fr;
+  }
+  .place__column:not(:first-child){
+    margin-top: 32px;
+  }
+}
+
