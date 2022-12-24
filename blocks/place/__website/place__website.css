@@ -11,9 +11,3 @@
   }
 }
 
-
-@media screen and (max-width:320px){
-  .place__website{
-   margin: 32px 16px 0;
-  }
-}
