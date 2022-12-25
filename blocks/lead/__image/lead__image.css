@@ -11,6 +11,6 @@
 
 @media screen and (max-width:768px){
   .lead__image{
-    max-width: 928px;
+    max-width: 100%;
   }
 }
